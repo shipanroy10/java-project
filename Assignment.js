@@ -50,4 +50,16 @@ return smallest;
 const result = tinyFriend(['ajij','sabbas','rakib','ajijur','raj']);
   console.log(result);
 
+function brickCalculator(flor){
+let first = 15000 ;
+let second = 12000 ;
+let third = 10000 
+let brick = first * flor; 
+return brick;
 
+}
+
+
+
+const result = brickCalculator(10);
+console.log(result)
